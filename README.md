@@ -1,6 +1,7 @@
 # Flea Visualization
 ### Authors
 Jiawei Tan (Me)
+
 Nick Birtch (https://github.com/nbirtch)
 
 # Overview
@@ -87,11 +88,15 @@ On the bottom right hand side of the page below the UI widgets, we display relev
 
 ### Rationals
 Some form of map visualization was an obvious choice for our flea data, as there were many locale based attributes describing the regions and subregions in which the flea specimens were gathered, including latitude and longitude which ties directly into our mapping processes. Sticking to continents and countries as our filterable regions made the most sense for general user knowledge and usability.
+
 Our dot visualization was our innovative component where we really wanted to improve and expand on how users engage with our data beyond reading a data record by providing various functionalities such as the subset dot view, the various filter actions and an attribute of focus. The goal was to guide the user in essentially querying our data via the tools given with the dot visualization.
+
 The focus of our design choices were to allow the user to drill down on the dataset as quickly and intuitively as possible while conveying useful and interesting information. Visually-oriented
   
 users will be serviced by being able to select regions on the map and interacting with the dot visualization to filter on and discover their areas of interest while more data-oriented individuals will be able to more directly find the information they need using the dropdowns, sliders and index filters.
+
 The data point filtering through region or dot selection, dropdown and the date range slider (among other widgets) as well as the map zoom and subset dot view all serve to aid browsing and exploring the distribution of fleas relevant to the user by restricting their view.
+
 The two visualizations in conjunction, the information box and the colour coded indexing in the dot visualization specifically allow the user to easily discover and compare the differences and trends of various attributes between fleas.
 
 
